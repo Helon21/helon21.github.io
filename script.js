@@ -1,8 +1,8 @@
 const countdownLabel = document.querySelector('.countdown-label');
 const countdownItems = document.querySelectorAll('.countdown-value');
 
-// Define a data do evento (07 de junho de 2024 às 00h)
-const eventDate = new Date('2024-07-08T00:00:00');
+// Define a data do evento (05 de julho de 2024 às 8:55h)
+const eventDate = new Date('2024-07-05T08:55:00');
 
 function updateCountdown() {
   const currentDate = new Date();
